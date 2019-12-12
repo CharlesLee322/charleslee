@@ -1,8 +1,8 @@
 from my_module.Functions import *
-
+#test for name function
 def test_my_name():
     assert callable(my_name)
-    
+# test for Quiz function   
 def test_Quiz():
     assert question_prompts == [
     "What is my favorite color?\n(a) Blue\n(b) Red\n(c) Black",
